@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 16,
+      "pet_name": "Sky",
+      "breed": "Parakeet",
+      "category": "Bird",
+      "date_of_birth": "2024-05-25",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Sky is lively and enjoys gentle interaction. Give her room to move, perches, toys, and fresh food and water.",
+      "vaccinated_status": false,
+      "color": "Blue and white",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 16,
+    "pet_name": "Sky",
+    "breed": "Parakeet",
+    "category": "Bird",
+    "date_of_birth": "2024-05-25",
+    "price": 1800,
+    "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Sky is lively and enjoys gentle interaction. Give her room to move, perches, toys, and fresh food and water.",
+    "vaccinated_status": false,
+    "color": "Blue and white",
+    "size": "Small",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 16,
+    "pet_name": "Sky",
+    "breed": "Parakeet",
+    "category": "Bird",
+    "date_of_birth": "2024-05-25",
+    "price": 1800,
+    "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Sky is lively and enjoys gentle interaction. Give her room to move, perches, toys, and fresh food and water.",
+    "vaccinated_status": false,
+    "color": "Blue and white",
+    "size": "Small",
+    "health_status": "Healthy"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 7,
+      "pet_name": "Cleo",
+      "breed": "Siamese",
+      "category": "Cat",
+      "date_of_birth": "2022-08-30",
+      "price": 6500,
+      "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Cleo is vocal and people-oriented. She enjoys interactive play and regular companionship.",
+      "vaccinated_status": true,
+      "color": "Cream and brown",
+      "size": "Medium",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 7,
+    "pet_name": "Cleo",
+    "breed": "Siamese",
+    "category": "Cat",
+    "date_of_birth": "2022-08-30",
+    "price": 6500,
+    "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Cleo is vocal and people-oriented. She enjoys interactive play and regular companionship.",
+    "vaccinated_status": true,
+    "color": "Cream and brown",
+    "size": "Medium",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 7,
+    "pet_name": "Cleo",
+    "breed": "Siamese",
+    "category": "Cat",
+    "date_of_birth": "2022-08-30",
+    "price": 6500,
+    "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Cleo is vocal and people-oriented. She enjoys interactive play and regular companionship.",
+    "vaccinated_status": true,
+    "color": "Cream and brown",
+    "size": "Medium",
+    "health_status": "Healthy"
+  }
+}

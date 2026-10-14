@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 3,
+      "pet_name": "Luna",
+      "breed": "German Shepherd",
+      "category": "Dog",
+      "date_of_birth": "2023-07-21",
+      "price": 15000,
+      "image": "https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Luna is alert, loyal, and quick to learn. She needs regular exercise and a responsible adopter.",
+      "vaccinated_status": true,
+      "color": "Black and tan",
+      "size": "Large",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 3,
+    "pet_name": "Luna",
+    "breed": "German Shepherd",
+    "category": "Dog",
+    "date_of_birth": "2023-07-21",
+    "price": 15000,
+    "image": "https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Luna is alert, loyal, and quick to learn. She needs regular exercise and a responsible adopter.",
+    "vaccinated_status": true,
+    "color": "Black and tan",
+    "size": "Large",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 3,
+    "pet_name": "Luna",
+    "breed": "German Shepherd",
+    "category": "Dog",
+    "date_of_birth": "2023-07-21",
+    "price": 15000,
+    "image": "https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Luna is alert, loyal, and quick to learn. She needs regular exercise and a responsible adopter.",
+    "vaccinated_status": true,
+    "color": "Black and tan",
+    "size": "Large",
+    "health_status": "Healthy"
+  }
+}

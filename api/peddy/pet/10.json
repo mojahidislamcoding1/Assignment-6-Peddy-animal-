@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 10,
+      "pet_name": "Snowball",
+      "breed": "White Rabbit",
+      "category": "Rabbit",
+      "date_of_birth": "2023-12-02",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1591382386627-349b692688ff?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Snowball is quiet and curious. He likes to explore safely and needs a rabbit-appropriate diet.",
+      "vaccinated_status": false,
+      "color": "White",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 10,
+    "pet_name": "Snowball",
+    "breed": "White Rabbit",
+    "category": "Rabbit",
+    "date_of_birth": "2023-12-02",
+    "price": 2200,
+    "image": "https://images.unsplash.com/photo-1591382386627-349b692688ff?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Snowball is quiet and curious. He likes to explore safely and needs a rabbit-appropriate diet.",
+    "vaccinated_status": false,
+    "color": "White",
+    "size": "Small",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 10,
+    "pet_name": "Snowball",
+    "breed": "White Rabbit",
+    "category": "Rabbit",
+    "date_of_birth": "2023-12-02",
+    "price": 2200,
+    "image": "https://images.unsplash.com/photo-1591382386627-349b692688ff?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Snowball is quiet and curious. He likes to explore safely and needs a rabbit-appropriate diet.",
+    "vaccinated_status": false,
+    "color": "White",
+    "size": "Small",
+    "health_status": "Healthy"
+  }
+}

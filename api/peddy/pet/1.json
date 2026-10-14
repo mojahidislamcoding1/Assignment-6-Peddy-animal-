@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 1,
+      "pet_name": "Buddy",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "date_of_birth": "2023-03-12",
+      "price": 12000,
+      "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Buddy is a friendly, energetic dog who enjoys walks, playing fetch, and spending time with people. He would do well with an active family.",
+      "vaccinated_status": true,
+      "color": "Golden",
+      "size": "Large",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 1,
+    "pet_name": "Buddy",
+    "breed": "Golden Retriever",
+    "category": "Dog",
+    "date_of_birth": "2023-03-12",
+    "price": 12000,
+    "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Buddy is a friendly, energetic dog who enjoys walks, playing fetch, and spending time with people. He would do well with an active family.",
+    "vaccinated_status": true,
+    "color": "Golden",
+    "size": "Large",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 1,
+    "pet_name": "Buddy",
+    "breed": "Golden Retriever",
+    "category": "Dog",
+    "date_of_birth": "2023-03-12",
+    "price": 12000,
+    "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Buddy is a friendly, energetic dog who enjoys walks, playing fetch, and spending time with people. He would do well with an active family.",
+    "vaccinated_status": true,
+    "color": "Golden",
+    "size": "Large",
+    "health_status": "Healthy"
+  }
+}

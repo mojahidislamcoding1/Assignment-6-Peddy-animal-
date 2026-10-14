@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 6,
+      "pet_name": "Bella",
+      "breed": "Domestic Shorthair",
+      "category": "Cat",
+      "date_of_birth": "2024-02-14",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Bella is playful, curious, and easy to care for. She likes toys and comfortable places to nap.",
+      "vaccinated_status": true,
+      "color": "Gray",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 6,
+    "pet_name": "Bella",
+    "breed": "Domestic Shorthair",
+    "category": "Cat",
+    "date_of_birth": "2024-02-14",
+    "price": 4500,
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Bella is playful, curious, and easy to care for. She likes toys and comfortable places to nap.",
+    "vaccinated_status": true,
+    "color": "Gray",
+    "size": "Small",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 6,
+    "pet_name": "Bella",
+    "breed": "Domestic Shorthair",
+    "category": "Cat",
+    "date_of_birth": "2024-02-14",
+    "price": 4500,
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Bella is playful, curious, and easy to care for. She likes toys and comfortable places to nap.",
+    "vaccinated_status": true,
+    "color": "Gray",
+    "size": "Small",
+    "health_status": "Healthy"
+  }
+}

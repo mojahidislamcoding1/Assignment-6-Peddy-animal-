@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 14,
+      "pet_name": "Sunny",
+      "breed": "Cockatiel",
+      "category": "Bird",
+      "date_of_birth": "2023-09-19",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Sunny is alert and social. She needs daily interaction, toys, and a bird-safe environment.",
+      "vaccinated_status": false,
+      "color": "Gray and yellow",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 14,
+    "pet_name": "Sunny",
+    "breed": "Cockatiel",
+    "category": "Bird",
+    "date_of_birth": "2023-09-19",
+    "price": 4500,
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Sunny is alert and social. She needs daily interaction, toys, and a bird-safe environment.",
+    "vaccinated_status": false,
+    "color": "Gray and yellow",
+    "size": "Small",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 14,
+    "pet_name": "Sunny",
+    "breed": "Cockatiel",
+    "category": "Bird",
+    "date_of_birth": "2023-09-19",
+    "price": 4500,
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Sunny is alert and social. She needs daily interaction, toys, and a bird-safe environment.",
+    "vaccinated_status": false,
+    "color": "Gray and yellow",
+    "size": "Small",
+    "health_status": "Healthy"
+  }
+}

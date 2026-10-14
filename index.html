@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption</title>
+    <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon" />
+    <!-- Tailwind cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- flowBite Cdn  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google lato font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- loader style  -->
+
+<style>
+    #spinner {
+        display: none;
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-top: 4px solid #000;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+
+      /* Spinner animation */
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+</style>
+
+  </head>
+
+  <body style="font-family: &quot;Lato&quot;, sans-serif" class="">
+    <nav class=" ">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:px-16 md:px-10 px-4 py-8"
+      >
+        <a href="#" class="flex items-center space-x-3">
+          <img src="images/logo.webp" class="h-7" alt="Peddy Logo" />
+          <span
+            class="self-center text-xl font-extrabold text-heading whitespace-nowrap"
+            >Peddy</span
+          >
+        </a>
+        <div class="flex items-center md:order-2 space-x-3 md:space-x-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+            />
+          </svg>
+
+          <!-- dropdown menu button   -->
+
+          <button
+            data-collapse-toggle="navbar-user"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden"
+            aria-controls="navbar-user"
+            aria-expanded="false"
+          >
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="M5 7h14M5 12h14M5 17h14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-user"
+        >
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary"
+          >
+            <li>
+              <a
+                href="#"
+                class="py-2 px-3 text-[#8e8e8e] rounded hover:text-[#0e7a81] md:p-0"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2 px-3 text-[#8e8e8e] text-heading rounded hover:text-[#0e7a81] md:border-0 md:p-0"
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2 px-3 text-[#8e8e8e] text-heading rounded hover:text-[#0e7a81] md:border-0 md:p-0"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner section  start-->
+
+    <main class="pt-5">
+      <section class="container mx-auto lg:px-16 md:px-10 px-4 py-3">
+        <div class="flex justify-center items-center flex-col">
+          <div>
+            <p class="text-center font-bold text-gray-500 text-xl lg:ml-24">
+              Bringing Families Together ❤️
+            </p>
+          </div>
+          <div>
+            <h1
+              class="font-bold lg:text-6xl text-4xl lg:max-w-screen-sm text-center mt-8"
+            >
+              Your Path to Adoption Starts Here
+            </h1>
+          </div>
+        </div>
+        <p
+          class="lg:text-[16px] text-[0.8rem] mt-5 text-center lg:px-[12.9rem] leading-6 font-normal text-[#4e4c4c]"
+        >
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a.
+        </p>
+        <div class="flex justify-center mt-6">
+          <button onclick="document.getElementById('petsContainer').scrollIntoView({ behavior: 'smooth' })"
+            id="viewmore-btn"
+            type="button"
+            class="text-white bg-[#0e7a81] border-none border hover:bg-gray-300 hover:text-black transition-colors duration-300 ease-in-out leading-5 rounded-lg text-sm px-5 py-2.5 focus:outline-none font-semibold"
+          >
+            View More
+          </button>
+        </div>
+        <div class="flex justify-center mt-8">
+          <img class="w-[660px]" src="images/pet.webp" alt="" />
+        </div>
+      </section>
+
+      <!-- banner section end  -->
+
+      <!-- adopt section  -->
+      <div class="flex flex-col justify-center">
+        <h2 class="text-center font-bold text-2xl lg:text-4xl">
+          Adopt Your Best Friend
+        </h2>
+        <p
+          class="lg:text-[16px] text-[0.8rem] mt-5 text-center lg:px-[22rem] px-7 leading-6 font-normal text-[#4e4c4c]"
+        >
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a.
+        </p>
+      </div>
+
+      <!-- category section star  -->
+      <section class="container mx-auto lg:px-16 md:px-10 px-4 py-3">
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-5 mt-10">
+          <div
+            id="dog-category"
+            class="category-item flex gap-3 border hover:cursor-pointer  rounded-lg py-3 justify-center items-center"
+          >
+            <img class="w-11" src="images/dogs.png" alt="" />
+            <h3 class="font-bold text-lg">Dogs</h3>
+          </div>
+          <div
+            id="cat-category"
+            class="category-item flex gap-3 border hover:cursor-pointer  rounded-lg py-3 justify-center items-center"
+          >
+            <img class="w-11" src="images/cat.png" alt="" />
+            <h3 class="font-bold text-lg">Cats</h3>
+          </div>
+          <div
+            id="rabbit-category"
+            class="category-item flex gap-3 border hover:cursor-pointer  rounded-lg py-3 justify-center items-center"
+          >
+            <img class="w-11" src="images/rabbit.png" alt="" />
+            <h3 class="font-bold text-lg">Rabbits</h3>
+          </div>
+          <div
+            id="bird-category"
+            class="category-item flex gap-3 border  hover:cursor-pointer rounded-lg py-3 justify-center items-center"
+          >
+            <img class="w-11" src="images/bird.png" alt="" />
+            <h3 class="font-bold text-lg">Birds</h3>
+          </div>
+        </div>
+      </section>
+      <!-- category section end  -->
+
+      <!-- best deal section start  -->
+      <section class="container mx-auto lg:px-16 md:px-10 px-4 py-3">
+        <div class="flex justify-between mt-7 items-center">
+          <h3 class="font-bold text-xl">Best Deal For You</h3>
+          <button
+            id="sortBy-btn"
+            type="button"
+            class="text-white bg-[#0e7a81] border hover:bg-gray-300 transition-colors duration-300 ease-in-out hover:text-black leading-5 rounded-lg text-sm px-6 py-2.5 focus:outline-none font-semibold"
+          >
+            Sort by Price
+          </button>
+        </div>
+        <!-- best deal section end  -->
+
+        <!-- loader  -->
+
+    <div id="spinner"></div>
+
+
+        <!-- All pets Data here  -->
+
+        <div
+          id="petsContainer"
+          class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 mt-10">
+
+          <div id="right-div" class="grid lg:grid-cols-3 gap-5 lg:col-span-3 md:col-span-2  "></div>
+
+          <div id="left-div" class="lg:col-span-1 grid grid-cols-2 items-start content-start gap-3 card bg-base-100 rounded-xl border px-4 py-4 ">
+            
+          </div>
+           
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-black max-h-screen mt-12">
+      <div
+        class="flex flex-col justify-center gap-6 lg:flex-row lg:justify-between  container mx-auto lg:px-16 md:px-10 px-8  lg:pt-24 lg:pb-14 md:pt-18 md:pb-10 pt-10 pb-5"
+      >
+        <div>
+          <h3
+            class="flex gap-2 mb-4 items-center font-bold text-3xl text-white"
+          >
+            <img class="h-6" src="images/logo.webp" alt="" />Peddy
+          </h3>
+          <span class="text-[#555555] text-sm font-normal"
+            >Location: av. Washington 165, NY CA 54003</span
+          ><br />
+          <span class="text-[#555555] text-sm font-normal"
+            >Phone: +31 85 964 47 25</span
+          ><br />
+          <span class="text-[#555555] text-sm font-normal"
+            >Email: info@yourdomain.com</span
+          ><br />
+          <span class="text-[#555555] text-sm font-normal"
+            >Openings hours: 9.00 AM - 5.00 PM</span
+          >
+
+          <div class="flex gap-4 items-center mt-4">
+            <img class="w-6" src="images/facebook.png" alt="" />
+            <img class="w-6" src="images/twitter.png" alt="" />
+            <img class="w-6" src="images/youtube.png" alt="" />
+            <img class="w-6" src="images/instagram.png" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg text-white">Useful Links</h3>
+          <ul class="mt-5 flex flex-col gap-2">
+            <li class="list-none text-[#878787] hover:underline">
+              <a href="#">Home</a>
+            </li>
+            <li class="list-none text-[#878787] hover:underline">
+              <a href="#">About Us</a>
+            </li>
+            <li class="list-none text-[#878787] hover:underline">
+              <a href="#">Animals</a>
+            </li>
+            <li class="list-none text-[#878787] hover:underline">
+              <a href="#">Foundation</a>
+            </li>
+            <li class="list-none text-[#878787] hover:underline">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col ">
+          <h3 class="font-bold text-lg text-white">Drop a Message</h3>
+          <input
+            class="border-none bg-[#1f1f1f] rounded-lg mt-5 text-white"
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter Your Email"
+          /><br />
+          <button
+            id="Subscribe-btn"
+            type="button"
+            class="text-white bg-[#0e7a81] border-none hover:bg-[#037078]  rounded-lg text-lg py-2 focus:outline-none font-semibold"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="text.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.js"></script>
+  </body>
+</html>

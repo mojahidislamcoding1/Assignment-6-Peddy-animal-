@@ -1,0 +1,130 @@
+{
+  "status": true,
+  "message": "Successfully fetched rabbit pets data",
+  "data": {
+    "pets": [
+      {
+        "petId": 9,
+        "pet_name": "Coco",
+        "breed": "Holland Lop",
+        "category": "Rabbit",
+        "date_of_birth": "2024-04-18",
+        "price": 2500,
+        "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Coco is a gentle rabbit who needs a clean, spacious enclosure, hay, fresh water, and careful handling.",
+        "vaccinated_status": false,
+        "color": "Brown and white",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 10,
+        "pet_name": "Snowball",
+        "breed": "White Rabbit",
+        "category": "Rabbit",
+        "date_of_birth": "2023-12-02",
+        "price": 2200,
+        "image": "https://images.unsplash.com/photo-1591382386627-349b692688ff?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Snowball is quiet and curious. He likes to explore safely and needs a rabbit-appropriate diet.",
+        "vaccinated_status": false,
+        "color": "White",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 11,
+        "pet_name": "Peanut",
+        "breed": "Mini Rex",
+        "category": "Rabbit",
+        "date_of_birth": "2024-06-05",
+        "price": 3000,
+        "image": "https://images.unsplash.com/photo-1535241749838-299277b6305f?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Peanut is active and inquisitive. Provide daily supervised exercise and a safe area to hide and rest.",
+        "vaccinated_status": false,
+        "color": "Brown",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 12,
+        "pet_name": "Mochi",
+        "breed": null,
+        "category": "Rabbit",
+        "date_of_birth": "2024-03-22",
+        "price": 2800,
+        "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Mochi is gentle and enjoys calm surroundings. Breed information is not available in this sample record.",
+        "vaccinated_status": false,
+        "color": "Gray and white",
+        "size": "Small",
+        "health_status": "Healthy"
+      }
+    ]
+  },
+  "pets": [
+    {
+      "petId": 9,
+      "pet_name": "Coco",
+      "breed": "Holland Lop",
+      "category": "Rabbit",
+      "date_of_birth": "2024-04-18",
+      "price": 2500,
+      "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Coco is a gentle rabbit who needs a clean, spacious enclosure, hay, fresh water, and careful handling.",
+      "vaccinated_status": false,
+      "color": "Brown and white",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 10,
+      "pet_name": "Snowball",
+      "breed": "White Rabbit",
+      "category": "Rabbit",
+      "date_of_birth": "2023-12-02",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1591382386627-349b692688ff?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Snowball is quiet and curious. He likes to explore safely and needs a rabbit-appropriate diet.",
+      "vaccinated_status": false,
+      "color": "White",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 11,
+      "pet_name": "Peanut",
+      "breed": "Mini Rex",
+      "category": "Rabbit",
+      "date_of_birth": "2024-06-05",
+      "price": 3000,
+      "image": "https://images.unsplash.com/photo-1535241749838-299277b6305f?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Peanut is active and inquisitive. Provide daily supervised exercise and a safe area to hide and rest.",
+      "vaccinated_status": false,
+      "color": "Brown",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 12,
+      "pet_name": "Mochi",
+      "breed": null,
+      "category": "Rabbit",
+      "date_of_birth": "2024-03-22",
+      "price": 2800,
+      "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Mochi is gentle and enjoys calm surroundings. Breed information is not available in this sample record.",
+      "vaccinated_status": false,
+      "color": "Gray and white",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  ]
+}

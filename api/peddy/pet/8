@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 8,
+      "pet_name": "Leo",
+      "breed": "British Shorthair",
+      "category": "Cat",
+      "date_of_birth": null,
+      "price": 9000,
+      "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Leo is relaxed and affectionate. His exact birth date is not available in the sample record.",
+      "vaccinated_status": false,
+      "color": "Blue-gray",
+      "size": "Medium",
+      "health_status": "Needs routine vaccination review"
+    }
+  },
+  "petData": {
+    "petId": 8,
+    "pet_name": "Leo",
+    "breed": "British Shorthair",
+    "category": "Cat",
+    "date_of_birth": null,
+    "price": 9000,
+    "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Leo is relaxed and affectionate. His exact birth date is not available in the sample record.",
+    "vaccinated_status": false,
+    "color": "Blue-gray",
+    "size": "Medium",
+    "health_status": "Needs routine vaccination review"
+  },
+  "pet": {
+    "petId": 8,
+    "pet_name": "Leo",
+    "breed": "British Shorthair",
+    "category": "Cat",
+    "date_of_birth": null,
+    "price": 9000,
+    "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Leo is relaxed and affectionate. His exact birth date is not available in the sample record.",
+    "vaccinated_status": false,
+    "color": "Blue-gray",
+    "size": "Medium",
+    "health_status": "Needs routine vaccination review"
+  }
+}

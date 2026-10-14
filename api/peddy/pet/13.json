@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 13,
+      "pet_name": "Kiwi",
+      "breed": "Budgerigar",
+      "category": "Bird",
+      "date_of_birth": "2024-01-08",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Kiwi is a small, active bird. He needs a safe, roomy cage, fresh water, an appropriate diet, and daily enrichment.",
+      "vaccinated_status": false,
+      "color": "Green and yellow",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 13,
+    "pet_name": "Kiwi",
+    "breed": "Budgerigar",
+    "category": "Bird",
+    "date_of_birth": "2024-01-08",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Kiwi is a small, active bird. He needs a safe, roomy cage, fresh water, an appropriate diet, and daily enrichment.",
+    "vaccinated_status": false,
+    "color": "Green and yellow",
+    "size": "Small",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 13,
+    "pet_name": "Kiwi",
+    "breed": "Budgerigar",
+    "category": "Bird",
+    "date_of_birth": "2024-01-08",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Kiwi is a small, active bird. He needs a safe, roomy cage, fresh water, an appropriate diet, and daily enrichment.",
+    "vaccinated_status": false,
+    "color": "Green and yellow",
+    "size": "Small",
+    "health_status": "Healthy"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 4,
+      "pet_name": "Rocky",
+      "breed": "Labrador Retriever",
+      "category": "Dog",
+      "date_of_birth": "2024-01-16",
+      "price": 10000,
+      "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Rocky is playful and social. He enjoys games and is happiest when he gets attention and daily activity.",
+      "vaccinated_status": false,
+      "color": "Black",
+      "size": "Large",
+      "health_status": "Needs routine vaccination review"
+    }
+  },
+  "petData": {
+    "petId": 4,
+    "pet_name": "Rocky",
+    "breed": "Labrador Retriever",
+    "category": "Dog",
+    "date_of_birth": "2024-01-16",
+    "price": 10000,
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Rocky is playful and social. He enjoys games and is happiest when he gets attention and daily activity.",
+    "vaccinated_status": false,
+    "color": "Black",
+    "size": "Large",
+    "health_status": "Needs routine vaccination review"
+  },
+  "pet": {
+    "petId": 4,
+    "pet_name": "Rocky",
+    "breed": "Labrador Retriever",
+    "category": "Dog",
+    "date_of_birth": "2024-01-16",
+    "price": 10000,
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Rocky is playful and social. He enjoys games and is happiest when he gets attention and daily activity.",
+    "vaccinated_status": false,
+    "color": "Black",
+    "size": "Large",
+    "health_status": "Needs routine vaccination review"
+  }
+}

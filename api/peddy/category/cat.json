@@ -1,0 +1,130 @@
+{
+  "status": true,
+  "message": "Successfully fetched cat pets data",
+  "data": {
+    "pets": [
+      {
+        "petId": 5,
+        "pet_name": "Oliver",
+        "breed": "Persian",
+        "category": "Cat",
+        "date_of_birth": "2023-05-10",
+        "price": 7000,
+        "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Oliver is calm and gentle. His long coat needs regular brushing, and he prefers a peaceful indoor environment.",
+        "vaccinated_status": true,
+        "color": "White and cream",
+        "size": "Medium",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 6,
+        "pet_name": "Bella",
+        "breed": "Domestic Shorthair",
+        "category": "Cat",
+        "date_of_birth": "2024-02-14",
+        "price": 4500,
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Bella is playful, curious, and easy to care for. She likes toys and comfortable places to nap.",
+        "vaccinated_status": true,
+        "color": "Gray",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 7,
+        "pet_name": "Cleo",
+        "breed": "Siamese",
+        "category": "Cat",
+        "date_of_birth": "2022-08-30",
+        "price": 6500,
+        "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Cleo is vocal and people-oriented. She enjoys interactive play and regular companionship.",
+        "vaccinated_status": true,
+        "color": "Cream and brown",
+        "size": "Medium",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 8,
+        "pet_name": "Leo",
+        "breed": "British Shorthair",
+        "category": "Cat",
+        "date_of_birth": null,
+        "price": 9000,
+        "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Leo is relaxed and affectionate. His exact birth date is not available in the sample record.",
+        "vaccinated_status": false,
+        "color": "Blue-gray",
+        "size": "Medium",
+        "health_status": "Needs routine vaccination review"
+      }
+    ]
+  },
+  "pets": [
+    {
+      "petId": 5,
+      "pet_name": "Oliver",
+      "breed": "Persian",
+      "category": "Cat",
+      "date_of_birth": "2023-05-10",
+      "price": 7000,
+      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Oliver is calm and gentle. His long coat needs regular brushing, and he prefers a peaceful indoor environment.",
+      "vaccinated_status": true,
+      "color": "White and cream",
+      "size": "Medium",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 6,
+      "pet_name": "Bella",
+      "breed": "Domestic Shorthair",
+      "category": "Cat",
+      "date_of_birth": "2024-02-14",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Bella is playful, curious, and easy to care for. She likes toys and comfortable places to nap.",
+      "vaccinated_status": true,
+      "color": "Gray",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 7,
+      "pet_name": "Cleo",
+      "breed": "Siamese",
+      "category": "Cat",
+      "date_of_birth": "2022-08-30",
+      "price": 6500,
+      "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Cleo is vocal and people-oriented. She enjoys interactive play and regular companionship.",
+      "vaccinated_status": true,
+      "color": "Cream and brown",
+      "size": "Medium",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 8,
+      "pet_name": "Leo",
+      "breed": "British Shorthair",
+      "category": "Cat",
+      "date_of_birth": null,
+      "price": 9000,
+      "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Leo is relaxed and affectionate. His exact birth date is not available in the sample record.",
+      "vaccinated_status": false,
+      "color": "Blue-gray",
+      "size": "Medium",
+      "health_status": "Needs routine vaccination review"
+    }
+  ]
+}

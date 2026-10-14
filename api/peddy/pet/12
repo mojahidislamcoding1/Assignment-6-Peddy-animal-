@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 12,
+      "pet_name": "Mochi",
+      "breed": null,
+      "category": "Rabbit",
+      "date_of_birth": "2024-03-22",
+      "price": 2800,
+      "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Mochi is gentle and enjoys calm surroundings. Breed information is not available in this sample record.",
+      "vaccinated_status": false,
+      "color": "Gray and white",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 12,
+    "pet_name": "Mochi",
+    "breed": null,
+    "category": "Rabbit",
+    "date_of_birth": "2024-03-22",
+    "price": 2800,
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Mochi is gentle and enjoys calm surroundings. Breed information is not available in this sample record.",
+    "vaccinated_status": false,
+    "color": "Gray and white",
+    "size": "Small",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 12,
+    "pet_name": "Mochi",
+    "breed": null,
+    "category": "Rabbit",
+    "date_of_birth": "2024-03-22",
+    "price": 2800,
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=900&q=80",
+    "gender": "Female",
+    "pet_details": "Mochi is gentle and enjoys calm surroundings. Breed information is not available in this sample record.",
+    "vaccinated_status": false,
+    "color": "Gray and white",
+    "size": "Small",
+    "health_status": "Healthy"
+  }
+}

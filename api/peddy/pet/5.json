@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 5,
+      "pet_name": "Oliver",
+      "breed": "Persian",
+      "category": "Cat",
+      "date_of_birth": "2023-05-10",
+      "price": 7000,
+      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Oliver is calm and gentle. His long coat needs regular brushing, and he prefers a peaceful indoor environment.",
+      "vaccinated_status": true,
+      "color": "White and cream",
+      "size": "Medium",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 5,
+    "pet_name": "Oliver",
+    "breed": "Persian",
+    "category": "Cat",
+    "date_of_birth": "2023-05-10",
+    "price": 7000,
+    "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Oliver is calm and gentle. His long coat needs regular brushing, and he prefers a peaceful indoor environment.",
+    "vaccinated_status": true,
+    "color": "White and cream",
+    "size": "Medium",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 5,
+    "pet_name": "Oliver",
+    "breed": "Persian",
+    "category": "Cat",
+    "date_of_birth": "2023-05-10",
+    "price": 7000,
+    "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Oliver is calm and gentle. His long coat needs regular brushing, and he prefers a peaceful indoor environment.",
+    "vaccinated_status": true,
+    "color": "White and cream",
+    "size": "Medium",
+    "health_status": "Healthy"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "Successfully fetched pet details",
+  "data": {
+    "petData": {
+      "petId": 2,
+      "pet_name": "Milo",
+      "breed": "Beagle",
+      "category": "Dog",
+      "date_of_birth": "2022-11-04",
+      "price": 8500,
+      "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Milo is curious and affectionate. He likes exploring outdoors and responds well to gentle training.",
+      "vaccinated_status": true,
+      "color": "Brown and white",
+      "size": "Medium",
+      "health_status": "Healthy"
+    }
+  },
+  "petData": {
+    "petId": 2,
+    "pet_name": "Milo",
+    "breed": "Beagle",
+    "category": "Dog",
+    "date_of_birth": "2022-11-04",
+    "price": 8500,
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Milo is curious and affectionate. He likes exploring outdoors and responds well to gentle training.",
+    "vaccinated_status": true,
+    "color": "Brown and white",
+    "size": "Medium",
+    "health_status": "Healthy"
+  },
+  "pet": {
+    "petId": 2,
+    "pet_name": "Milo",
+    "breed": "Beagle",
+    "category": "Dog",
+    "date_of_birth": "2022-11-04",
+    "price": 8500,
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80",
+    "gender": "Male",
+    "pet_details": "Milo is curious and affectionate. He likes exploring outdoors and responds well to gentle training.",
+    "vaccinated_status": true,
+    "color": "Brown and white",
+    "size": "Medium",
+    "health_status": "Healthy"
+  }
+}

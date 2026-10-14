@@ -1,0 +1,130 @@
+{
+  "status": true,
+  "message": "Successfully fetched dog pets data",
+  "data": {
+    "pets": [
+      {
+        "petId": 1,
+        "pet_name": "Buddy",
+        "breed": "Golden Retriever",
+        "category": "Dog",
+        "date_of_birth": "2023-03-12",
+        "price": 12000,
+        "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Buddy is a friendly, energetic dog who enjoys walks, playing fetch, and spending time with people. He would do well with an active family.",
+        "vaccinated_status": true,
+        "color": "Golden",
+        "size": "Large",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 2,
+        "pet_name": "Milo",
+        "breed": "Beagle",
+        "category": "Dog",
+        "date_of_birth": "2022-11-04",
+        "price": 8500,
+        "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Milo is curious and affectionate. He likes exploring outdoors and responds well to gentle training.",
+        "vaccinated_status": true,
+        "color": "Brown and white",
+        "size": "Medium",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 3,
+        "pet_name": "Luna",
+        "breed": "German Shepherd",
+        "category": "Dog",
+        "date_of_birth": "2023-07-21",
+        "price": 15000,
+        "image": "https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Luna is alert, loyal, and quick to learn. She needs regular exercise and a responsible adopter.",
+        "vaccinated_status": true,
+        "color": "Black and tan",
+        "size": "Large",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 4,
+        "pet_name": "Rocky",
+        "breed": "Labrador Retriever",
+        "category": "Dog",
+        "date_of_birth": "2024-01-16",
+        "price": 10000,
+        "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Rocky is playful and social. He enjoys games and is happiest when he gets attention and daily activity.",
+        "vaccinated_status": false,
+        "color": "Black",
+        "size": "Large",
+        "health_status": "Needs routine vaccination review"
+      }
+    ]
+  },
+  "pets": [
+    {
+      "petId": 1,
+      "pet_name": "Buddy",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "date_of_birth": "2023-03-12",
+      "price": 12000,
+      "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Buddy is a friendly, energetic dog who enjoys walks, playing fetch, and spending time with people. He would do well with an active family.",
+      "vaccinated_status": true,
+      "color": "Golden",
+      "size": "Large",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 2,
+      "pet_name": "Milo",
+      "breed": "Beagle",
+      "category": "Dog",
+      "date_of_birth": "2022-11-04",
+      "price": 8500,
+      "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Milo is curious and affectionate. He likes exploring outdoors and responds well to gentle training.",
+      "vaccinated_status": true,
+      "color": "Brown and white",
+      "size": "Medium",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 3,
+      "pet_name": "Luna",
+      "breed": "German Shepherd",
+      "category": "Dog",
+      "date_of_birth": "2023-07-21",
+      "price": 15000,
+      "image": "https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Luna is alert, loyal, and quick to learn. She needs regular exercise and a responsible adopter.",
+      "vaccinated_status": true,
+      "color": "Black and tan",
+      "size": "Large",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 4,
+      "pet_name": "Rocky",
+      "breed": "Labrador Retriever",
+      "category": "Dog",
+      "date_of_birth": "2024-01-16",
+      "price": 10000,
+      "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Rocky is playful and social. He enjoys games and is happiest when he gets attention and daily activity.",
+      "vaccinated_status": false,
+      "color": "Black",
+      "size": "Large",
+      "health_status": "Needs routine vaccination review"
+    }
+  ]
+}
