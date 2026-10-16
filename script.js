@@ -100,7 +100,7 @@ const displayAllPets = (pets) => {
         </div>
     <hr>
       <div class="mt-2 flex justify-between "> 
-        <button><img class="like-btn w-11 rounded-md border px-3 py-2 " src= "/images/like.png"></button>
+        <button><img class="like-btn w-11 rounded-md border px-3 py-2 " src="./images/like.png"></button>
 
         <button class="adopt-btn border px-3 py-1 rounded-md disabled:bg-gray-300 disabled:text-gray-500 transition-colors text-[#0e7a81] font-bold hover:bg-[#0e7a81] hover:text-white hover:transition-colors ease-in-out duration-300">Adopt</button>
 
@@ -158,7 +158,7 @@ const displayAllPets = (pets) => {
 
 // details button functionality
 const petDetails = async (id) => {
-  const response = await fetch(`/api/peddy/pet/${id}.json`);
+  const response = await fetch(`./api/peddy/pet/${id}.json`);
   const result = await response.json();
   // console.log(result.pet.petId)
   const {
