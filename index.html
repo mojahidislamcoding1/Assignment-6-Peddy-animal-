@@ -8,11 +8,9 @@
     <!-- Tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- flowBite Cdn  -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.css"
-      rel="stylesheet"
-    />
+     <!-- Daisy Ui Cdn  -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- Google lato font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -257,10 +255,40 @@
           <div id="left-div" class="lg:col-span-1 grid grid-cols-2 items-start content-start gap-3 card bg-base-100 rounded-xl border px-4 py-4 ">
             
           </div>
-           
         </div>
+        
+      <div id="adoptModal" 
+      class="hidden">
+
+<!-- Open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box">
+    <h3 class="text-2xl text-center font-bold">Congrates 🥇 </h3>
+    <!-- Ekhane countdown number-ti dekhaben -->
+    <div class="my-4 flex justify-center items-center">
+      <span id="countdown-num" class="text-6xl font-bold text-black">3</span>
+    </div>
+
+    <p class="py-4 font-semibold">You will be adopted this pet Succesfully</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+       
+      </form>
+    </div>
+  </div>
+</dialog>
+      </div>
+
+
+      <!-- details modal  -->
+     <div id="details-modal"></div>
+
+
       </section>
     </main>
+
 
     <footer class="bg-black max-h-screen mt-12">
       <div
@@ -317,7 +345,7 @@
         <div class="flex flex-col ">
           <h3 class="font-bold text-lg text-white">Drop a Message</h3>
           <input
-            class="border-none bg-[#1f1f1f] rounded-lg mt-5 text-white"
+            class="px-5 py-2 focus:outline-cyan-400 border-none bg-[#1f1f1f] rounded-lg mt-5 text-white"
             type="text"
             name=""
             id=""

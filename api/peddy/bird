@@ -1,0 +1,130 @@
+{
+  "status": true,
+  "message": "Successfully fetched bird pets data",
+  "data": {
+    "pets": [
+      {
+        "petId": 13,
+        "pet_name": "Kiwi",
+        "breed": "Budgerigar",
+        "category": "Bird",
+        "date_of_birth": "2024-01-08",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Kiwi is a small, active bird. He needs a safe, roomy cage, fresh water, an appropriate diet, and daily enrichment.",
+        "vaccinated_status": false,
+        "color": "Green and yellow",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 14,
+        "pet_name": "Sunny",
+        "breed": "Cockatiel",
+        "category": "Bird",
+        "date_of_birth": "2023-09-19",
+        "price": 4500,
+        "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Sunny is alert and social. She needs daily interaction, toys, and a bird-safe environment.",
+        "vaccinated_status": false,
+        "color": "Gray and yellow",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 15,
+        "pet_name": "Rio",
+        "breed": "Lovebird",
+        "category": "Bird",
+        "date_of_birth": "2023-12-11",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1555169062-013468b47731?auto=format&fit=crop&w=900&q=80",
+        "gender": "Male",
+        "pet_details": "Rio is energetic and curious. He benefits from foraging toys, daily attention, and a balanced bird-safe diet.",
+        "vaccinated_status": false,
+        "color": "Green and orange",
+        "size": "Small",
+        "health_status": "Healthy"
+      },
+      {
+        "petId": 16,
+        "pet_name": "Sky",
+        "breed": "Parakeet",
+        "category": "Bird",
+        "date_of_birth": "2024-05-25",
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80",
+        "gender": "Female",
+        "pet_details": "Sky is lively and enjoys gentle interaction. Give her room to move, perches, toys, and fresh food and water.",
+        "vaccinated_status": false,
+        "color": "Blue and white",
+        "size": "Small",
+        "health_status": "Healthy"
+      }
+    ]
+  },
+  "pets": [
+    {
+      "petId": 13,
+      "pet_name": "Kiwi",
+      "breed": "Budgerigar",
+      "category": "Bird",
+      "date_of_birth": "2024-01-08",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Kiwi is a small, active bird. He needs a safe, roomy cage, fresh water, an appropriate diet, and daily enrichment.",
+      "vaccinated_status": false,
+      "color": "Green and yellow",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 14,
+      "pet_name": "Sunny",
+      "breed": "Cockatiel",
+      "category": "Bird",
+      "date_of_birth": "2023-09-19",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Sunny is alert and social. She needs daily interaction, toys, and a bird-safe environment.",
+      "vaccinated_status": false,
+      "color": "Gray and yellow",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 15,
+      "pet_name": "Rio",
+      "breed": "Lovebird",
+      "category": "Bird",
+      "date_of_birth": "2023-12-11",
+      "price": 3500,
+      "image": "https://images.unsplash.com/photo-1555169062-013468b47731?auto=format&fit=crop&w=900&q=80",
+      "gender": "Male",
+      "pet_details": "Rio is energetic and curious. He benefits from foraging toys, daily attention, and a balanced bird-safe diet.",
+      "vaccinated_status": false,
+      "color": "Green and orange",
+      "size": "Small",
+      "health_status": "Healthy"
+    },
+    {
+      "petId": 16,
+      "pet_name": "Sky",
+      "breed": "Parakeet",
+      "category": "Bird",
+      "date_of_birth": "2024-05-25",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80",
+      "gender": "Female",
+      "pet_details": "Sky is lively and enjoys gentle interaction. Give her room to move, perches, toys, and fresh food and water.",
+      "vaccinated_status": false,
+      "color": "Blue and white",
+      "size": "Small",
+      "health_status": "Healthy"
+    }
+  ]
+}
