@@ -61,7 +61,7 @@ function showNotFoundMessage() {
   const petContainer = document.getElementById("right-div"); // Tomar main pet container-er id
   petContainer.innerHTML = `
         <div class="col-span-3 text-center py-10 bg-gray-100 rounded-xl flex flex-col items-center">
-            <img src = "/images/error.webp">
+            <img src = "./images/error.webp">
             <h2 class="text-2xl font-bold text-black">No Information Available</h2>
             <p class="text-gray-500 mt-2 px-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
         </div>
