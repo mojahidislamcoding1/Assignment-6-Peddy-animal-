@@ -109,7 +109,8 @@ const displayAllPets = (pets) => {
 
       </div>
     `;
-
+    
+    rightDiv.appendChild(div);
     // like button functionalty added
     const likeButton = div.querySelector(".like-btn");
     likeButton.addEventListener("click", function () {
@@ -152,7 +153,6 @@ const displayAllPets = (pets) => {
       }, 1000);
     });
 
-    rightDiv.appendChild(div);
   });
 };
 
@@ -231,5 +231,4 @@ SortByPrice.addEventListener("click",function(){
   const sortArray = [...activePetsData].sort((a,b) => b.price - a.price);
   displayAllPets(sortArray);
   console.log("Sort by price button clicked");
-
-})
+});
